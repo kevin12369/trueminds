@@ -1,2 +1,2 @@
-// Placeholder — Task 4 will export style prompts from this package.
-export {};
+export { STYLE_PROMPTS, getStylePrompt } from './styles';
+export type { NPCStyle } from './types';
