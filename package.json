@@ -1,0 +1,15 @@
+{
+  "name": "trueminds",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @trueminds/web dev",
+    "build": "pnpm --filter @trueminds/web build",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
