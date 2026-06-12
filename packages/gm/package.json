@@ -9,6 +9,10 @@
     "test:watch": "vitest",
     "lint": "tsc --noEmit"
   },
+  "dependencies": {
+    "@langchain/langgraph": "^0.2.0",
+    "@trueminds/npc": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.4.0",
     "vitest": "^1.6.0"
