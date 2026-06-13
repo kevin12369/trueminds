@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import Link from 'next/link';
 import { TavernScene } from '../components/TavernScene';
 import { DialogueBubble } from '../components/DialogueBubble';
 import { InputBar } from '../components/InputBar';
@@ -74,6 +75,12 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-zinc-950 text-zinc-100">
       <header className="px-4 py-3 flex items-center border-b border-zinc-800">
         <h1 className="text-lg font-semibold">TrueMinds (戏中人)</h1>
+        <Link
+          href="/portfolio"
+          className="ml-4 text-sm text-zinc-400 hover:text-zinc-200"
+        >
+          About
+        </Link>
         <button
           type="button"
           onClick={() => setSettingsOpen(true)}
