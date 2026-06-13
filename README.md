@@ -2,10 +2,21 @@
 
 > **文字冒险 NPC 有真魂 / NPCs that remember, scheme, and react**
 
-[![Status](https://img.shields.io/badge/status-Phase_1_shipped-brightgreen)](#)
-[![License](https://img.shields.io/badge/license-MIT-blue)](#)
-[![Stack](https://img.shields.io/badge/stack-GitHub_Pages-222?logo=github)](#)
 [![Tests](https://img.shields.io/badge/tests-88_passing-brightgreen)](#)
+[![CI](https://github.com/kevin12369/trueminds/actions/workflows/ci.yml/badge.svg)](https://github.com/kevin12369/trueminds/actions/workflows/ci.yml)
+[![Deploy](https://img.shields.io/badge/deploy-live-brightgreen)](https://kevin12369.github.io/trueminds/)
+
+---
+
+## About this project
+
+戏中人 · TrueMinds is a multi-agent text adventure where 3 NPC agents (老板娘 / 神秘旅人 / 酒鬼) each have their own persona, memory, and goals — and a "silver key" plot hook reveals hidden NPC relationships on turn 5+.
+
+See the **[portfolio page](https://kevin12369.github.io/trueminds/portfolio/)** for screenshots, what it does, and how to run it locally.
+
+- **Live demo**: [kevin12369.github.io/trueminds](https://kevin12369.github.io/trueminds/) (preview only — needs your local LLM to actually run)
+- **Source code**: [github.com/kevin12369/trueminds](https://github.com/kevin12369/trueminds)
+- **Run locally**: [docs/RUN-LOCALLY.md](docs/RUN-LOCALLY.md) — 5 steps, ~15 min
 
 ---
 
